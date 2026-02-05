@@ -1,6 +1,6 @@
 # Python API with Kubernetes & Ingress
 
-A production-ready demonstration of a Python Flask API running on Kubernetes (Minikube). 
+A production-ready demonstration of a Python Flask API running on Kubernetes (Minikube).
 The project showcases secure secret management, automated logging, and advanced traffic routing using Ingress.
 
 ---
@@ -43,7 +43,7 @@ eval $(minikube docker-env)
 **3. Build the Image:**
 
 ```bash
-docker build -t python-api:latest .
+docker build -t python-api:v1 .
 ```
 
 
